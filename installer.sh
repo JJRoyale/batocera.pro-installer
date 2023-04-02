@@ -3,8 +3,8 @@
 echo "Welcome to the app installer!"
 echo "Available apps:" "$app"
 echo "Please select which apps you want to install:"
-
-select app in "chrome" "chromium" "firefox" "firefox-nightly" "7zip" "86box" "altus" "antimicrox" "atom" "balena-etcher" "blender" "cemu-updater" "chiaki" "clonehero" "cockatrice" "discord" "double-commander" "edge" "extract-xiso-gui" "f1-menu" "ferdium" "filezilla" "fightcade-2" "foobar2000" "geforcenow" "greenlight" "heroic-launcher" "hyper" "itch.io" "java-runtime" "kdenlive" "kitty" "krita" "logs" "mediaelch" "minecraft" "moonlight" "multimc-launcher" "museeks" "myretrotv" "nomacs" "obs-studio" "odio" "olive" "opera" "peazip" "photocollage" "pokemmo" "prism-launcher" "ps2+" "ps3+" "qbittorrent" "qdirstat" "rats-search" "sak" "sayonara" "smplayer" "spotify" "strawberry" "sublime-text" "sunshine" "switch-emulation" "telegram" "total-commander" "transmission" "vivaldi" "whatsapp" "youtube-tv" "exit"
+select app in "chrome" "chromium" "firefox" "firefox-nightly" "7zip" "86box" "altus" "antimicrox" "atom" "balena-etcher" "blender" "cemu-updater" "chiaki" "clonehero" "cockatrice" "discord" "double-commander" "edge" "extract-xiso-gui" "f1-menu" "ferdium" "filezilla" "fightcade-2" "foobar2000" "geforcenow" "gparted" "greenlight" "heroic-launcher" "hyper" "itch.io" "java-runtime" "kdenlive" "kitty" "krita" "logs" "mediaelch" "minecraft" "moonlight" "multimc-launcher" "museeks" "myretrotv" "nomacs" "obs-studio" "odio" "olive" "opera" "peazip" "photocollage" "pokemmo" "prism-launcher" "ps2+" "ps3+" "qbittorrent" "qdirstat" "rats-search" "sak" "sayonara" "smplayer" "spotify" "strawberry" "sublime-text" "sunshine" "switch-emulation" "telegram" "total-commander" "transmission" "vivaldi" "whatsapp" "youtube-tv" "exit"
+read -s
 do
     case $app in
         "chrome")
